@@ -1,0 +1,69 @@
+.networkSupportsContainer{
+    background-color: rgb(23,69,58);
+    padding-right: 21px;
+    /*border-radius: 4px;*/
+    border-top: 2px solid rgb(14,180,142);
+    position: relative;
+    /*color: white;*/
+}
+.networkSupportsContainer::before{
+    content:"";
+    position: absolute;
+    border-radius: 5px;
+    top: 5px;
+    bottom: 0;
+    width: 10px;
+    right: 0;
+
+    /*background-color: rgb(240,194,36);*/
+}
+.networkSupportsContainer:nth-of-type(1){
+    color: white;
+}
+.networkSupportsContainer:nth-of-type(2)::before{
+    background-color: rgb(240,194,36);
+}
+.networkSupportsContainer:nth-of-type(4)::before{
+    background-color: blue;
+}
+.networkSupportsContainer:nth-of-type(3)::before{
+    background-color: rgb(14,180,142);
+}
+.networkSupportTop{
+display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.networkSupportsContainer:nth-of-type(1) .networkSupportTop{
+    border-bottom: 1px solid white;
+}
+.networkSupportTop p{
+    font-size: 16px;
+    margin-right: 3px;
+}
+.networkSupportTopRight{
+display: flex;
+    align-items: center;
+}
+.networkSupportTopLeft{
+display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+.networkSupportMain{
+
+}
+.networkSupportMain p{
+    font-size: 14px;
+
+}
+.networkSupportBottom{
+display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.networkSupportBottom p{
+    font-size: 14px;
+    padding-left: 10px;
+}

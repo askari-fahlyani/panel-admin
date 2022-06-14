@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+.headerContainer{
+display: flex;
+    align-items: baseline;
+    width: 100%;
+}
+.headerLeftSide{
+    display: flex;
+    flex: 60%;
+    align-items: baseline;
+}
+.headerIcons{
+    display: flex;
+    flex: 70%;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+}
+.leftIcons{
+    display: flex;
+    flex: 75%;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 300px;
+    align-items: baseline;
+}
+.managersIconContainer{
+    display: flex;
+    align-items: baseline;
+}
+.managerIconsText{
+    font-size: 12px;
+    font-weight: 500;
+}
+.rightIcons{
+    display: flex;
+    flex:25%;
+    justify-content: space-between;
+    max-width: 80px;
+    align-items: baseline;
+}
+
+.headerSearchbar{
+    display: flex;
+    flex: 30%;
+    border: 1px solid green;
+    height: 30px;
+    border-radius: 4px;
+}
+.searchInput{
+border: none;
+    text-align: right;
+    padding-left: 67px;
+}
+
+.searchInput:focus{
+  outline: none;
+}
+
+.headerRightSide{
+    display: flex;
+    flex: 40%;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.logo{
+    padding-right: 20px;
+}
+.menuIcon{
+
+}

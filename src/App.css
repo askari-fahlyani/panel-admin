@@ -1,0 +1,22 @@
+@font-face {
+  src: url("../public/fonts/vazir/Vazirmatn-Regular.ttf");
+  font-family: vazir;
+}
+
+.App {
+
+  width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+  font-family: vazir;
+
+}
+.appContainer{
+  width: 98%;
+  background-color: rgb(226,243,237);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
